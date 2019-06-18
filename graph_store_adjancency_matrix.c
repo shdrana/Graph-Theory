@@ -5,14 +5,14 @@
 /**
     Graph store using adjacency Matrix
     @Author Sohid Ullah
-    @Since 2019.08.18
+    @Since 2019.06.18
 
 **/
 
 
 int main()
 {
-    /* Graph initialization */
+    /* Graph initialization. Check Wiki page to see the graph */
     int graph[6][6] =
     {
         {0, 1, 1, 1, 0, 0},

@@ -4,7 +4,7 @@
 /**
     Graph Store using adjacency List
     @Author Sohid Ullah
-    @Since 2019.08.18
+    @Since 2019.06.18
 
 **/
 
@@ -13,6 +13,8 @@ using namespace std;
 int main()
 {
     vector<int > v[6];
+
+    /*Graph storing using Vector*/
 
     v[0].push_back(1);
     v[0].push_back(2);
@@ -38,7 +40,7 @@ int main()
     v[5].push_back(3);
     v[5].push_back(2);
 
-
+    /*See the connected edge of every node*/
     for(int node = 0; node<6; node++)
     {
         cout<<node<<"->";
