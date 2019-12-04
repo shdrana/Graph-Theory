@@ -41,6 +41,7 @@ int main()
     v[5].push_back(2);
 
     /*See the connected edge of every node*/
+
     for(int node = 0; node<6; node++)
     {
         cout<<node<<"->";
@@ -50,6 +51,9 @@ int main()
         }
         cout<<endl;
     }
+
+
+
 
     return 0;
 }
