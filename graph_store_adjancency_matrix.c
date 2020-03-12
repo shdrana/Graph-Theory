@@ -9,7 +9,6 @@
 
 **/
 
-
 int main()
 {
     /* Graph initialization. Check Wiki page to see the graph */
@@ -24,15 +23,15 @@ int main()
     };
 
     /*Showing connected edge with every node*/
-    int node, vertex;
+    int node, edge;
     for(node = 0; node<6; node++)
     {
         printf("%d->", node);
-        for(vertex = 0; vertex<6; vertex++)
+        for(edge = 0; edge<6; edge++)
         {
-            if(graph[node][vertex] == 1)
+            if(graph[node][edge] == 1)
             {
-                printf("%d ", vertex);
+                printf("%d ", edge);
             }
         }
         printf("\n");
